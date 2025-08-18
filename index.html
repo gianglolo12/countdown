@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⏰ Đếm Ngược Đến 17h Ngày Mai</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">
+                <span class="emoji">🎉</span>
+                Đếm Ngược Thời Gian
+                <span class="emoji">⏰</span>
+            </h1>
+            <p class="subtitle">Thời gian còn lại đến 17:00 ngày mai</p>
+        </div>
+        
+        <div class="countdown-container">
+            <div class="time-card">
+                <div class="time-value" id="days">00</div>
+                <div class="time-label">Ngày</div>
+            </div>
+            
+            <div class="separator">
+                <div class="colon">:</div>
+            </div>
+            
+            <div class="time-card">
+                <div class="time-value" id="hours">00</div>
+                <div class="time-label">Giờ</div>
+            </div>
+            
+            <div class="separator">
+                <div class="colon">:</div>
+            </div>
+            
+            <div class="time-card">
+                <div class="time-value" id="minutes">00</div>
+                <div class="time-label">Phút</div>
+            </div>
+            
+            <div class="separator">
+                <div class="colon">:</div>
+            </div>
+            
+            <div class="time-card">
+                <div class="time-value" id="seconds">00</div>
+                <div class="time-label">Giây</div>
+            </div>
+        </div>
+        
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress"></div>
+            </div>
+            <p class="progress-text">Tiến trình hôm nay</p>
+        </div>
+        
+        <div class="footer">
+            <div class="celebration-emojis">
+                <span class="float-emoji">🎊</span>
+                <span class="float-emoji">🎈</span>
+                <span class="float-emoji">✨</span>
+                <span class="float-emoji">🎉</span>
+                <span class="float-emoji">🌟</span>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
